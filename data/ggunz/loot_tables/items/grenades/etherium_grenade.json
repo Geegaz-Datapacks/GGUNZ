@@ -1,0 +1,27 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:snowball",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"translate":"ggunz.item.name.etherium_grenade","color": "aqua","italic": false}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1701041,ggunz:{id:41},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:0s}]}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ctc:{id:\"etherium_grenade\",from:\"geegaz:ggunz\",traits:[\"item\",\"throwable\",\"grenade\",\"grenade/freeze\",\"etherium\"]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

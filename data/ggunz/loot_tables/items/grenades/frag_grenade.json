@@ -1,0 +1,27 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:snowball",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"translate":"ggunz.item.name.frag_grenade","color": "white","italic": false}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1701040,ggunz:{id:40}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ctc:{id:\"frag_grenade\",from:\"geegaz:ggunz\",traits:[\"item\",\"throwable\",\"grenade\",\"grenade/frag\"]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

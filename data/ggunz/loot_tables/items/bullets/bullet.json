@@ -1,0 +1,27 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:clock",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"translate":"ggunz.item.name.bullet","color": "white","italic": false}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1701020,ggunz:{id:20}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ctc:{id:\"bullet\",from:\"geegaz:ggunz\",traits:[\"item\",\"bullet\",\"bullet/revolver\",\"metal/copper\"]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

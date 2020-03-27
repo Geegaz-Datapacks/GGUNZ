@@ -1,0 +1,27 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:clock",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"translate":"ggunz.item.name.copper_coin","color": "white","italic": false}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1701006,ggunz:{id:6}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ctc:{id:\"copper_coin\",from:\"geegaz:ggunz\",traits:[\"item\",\"nugget\",\"metal/copper\"]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

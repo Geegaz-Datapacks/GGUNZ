@@ -1,0 +1,33 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"translate":"ggunz.item.name.bandage","color": "white","italic": false}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+							  [{"translate":"ggunz.item.desc.bandage","color":"gray","italic": false}]
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1701002,ggunz:{id:2}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ctc:{id:\"bandage\",from:\"geegaz:ggunz\",traits:[\"item\",\"action\",\"bandage\",\"heal\"]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

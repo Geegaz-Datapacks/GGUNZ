@@ -1,0 +1,27 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wooden_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"translate":"ggunz.item.name.big_stick","color": "white","italic": false}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1701030,ggunz:{id:30}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ctc:{id:\"big_stick\",from:\"geegaz:ggunz\",traits:[\"item\",\"stick\",\"tool/weapon\"]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

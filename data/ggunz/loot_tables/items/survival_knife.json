@@ -1,0 +1,27 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"translate":"ggunz.item.name.survival_knife","color": "white","italic": false}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1701032,ggunz:{id:32}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ctc:{id:\"survival_knife\",from:\"geegaz:ggunz\",traits:[\"item\",\"knife\",\"tool/weapon\"]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

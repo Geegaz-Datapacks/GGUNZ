@@ -1,0 +1,27 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:clock",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"translate":"ggunz.item.name.sniper_round","color": "white","italic": false}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1701023,ggunz:{id:23}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ctc:{id:\"sniper_round\",from:\"geegaz:ggunz\",traits:[\"item\",\"bullet\",\"bullet/sniper\",\"metal/copper\"]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

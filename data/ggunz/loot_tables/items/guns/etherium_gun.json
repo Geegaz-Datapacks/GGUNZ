@@ -1,0 +1,90 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:crossbow",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"ggunz.bullets": {
+											"min": 1,
+											"max": 999999
+										}
+									}
+								}
+							],
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"lore": [
+										[
+											{"translate": "ggunz.item.desc.bullets","color": "white","italic": false},
+											{"score": {"name": "@s","objective": "ggunz.bullets"}},
+											{"text": "/"},
+											{"score": {"name": "@s","objective": "ggunz.capacity"}}
+										]
+									],
+									"entity": "this",
+									"replace": true
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{Charged:1b}"
+								},
+								{
+									"function": "minecraft:set_name",
+									"name": {"translate": "ggunz.item.name.etherium_gun","color": "yellow","italic": false}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1701011,ggunz:{id:11, capacity:4, bullets:0, reload_time:1.5},HideFlags:32}"
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{ctc:{id:\"etherium_gun\",from:\"geegaz:ggunz\",traits:[\"item\",\"action\",\"gun\",\"gun/gun\",\"etherium\"]}}"
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:carrot_on_a_stick",
+							"functions": [
+								{
+									"function": "minecraft:set_lore",
+									"lore": [
+										{"translate": "ggunz.item.desc.line1","color": "gray","italic": false},
+										[
+											{"translate": "ggunz.item.desc.line2","color": "blue","italic": false},
+											{"text": " 1.5s"}
+										]
+									],
+									"replace": true
+								},
+								{
+									"function": "minecraft:set_name",
+									"name": {"translate": "ggunz.item.name.etherium_gun","color": "yellow","italic": false}
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{CustomModelData:1701011,ggunz:{id:11, capacity:4, bullets:0, reload_time:1.5},HideFlags:32}"
+								},
+								{
+									"function": "minecraft:set_nbt",
+									"tag": "{ctc:{id:\"etherium_gun\",from:\"geegaz:ggunz\",traits:[\"item\",\"action\",\"gun\",\"gun/gun\",\"etherium\"]}}"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
