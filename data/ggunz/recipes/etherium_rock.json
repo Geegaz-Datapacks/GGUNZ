@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" # ",
+		"#D#",
+		" # "
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:glowstone_dust"
+		},
+		"D": {
+			"item": "minecraft:diamond"
+		}
+	},
+	"result": {
+		"item": "minecraft:knowledge_book"
+	}
+}

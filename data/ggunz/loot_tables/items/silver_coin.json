@@ -4,20 +4,19 @@
 			"rolls":1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:clock",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": {"translate":"ggunz.item.name.silver_coin","color": "white","italic": false}
+							"name": [
+								{"translate": "ggunz.item.name.silver_coin", "color": "white", "italic": false}
+							],
+							"replace": "true"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1701005,ggunz:{id:5}}"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ctc:{id:\"silver_coin\",from:\"geegaz:ggunz\",traits:[\"item\",\"nugget\",\"metal/silver\"]}}"
+							"function": "set_nbt",
+							"tag": "{CustomModelData:172000}"
 						}
 					]
 				}

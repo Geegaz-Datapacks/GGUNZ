@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+        {
+            "item": "minecraft:red_dye"
+        },
+        {
+            "item": "minecraft:gunpowder"
+        },
+		{
+            "item": "minecraft:iron_nugget"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        }
+    ],
+	"result": {
+		"item": "minecraft:knowledge_book"
+	}
+}

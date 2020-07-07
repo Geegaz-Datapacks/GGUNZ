@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"placeholder": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "ggunz:big_stick"
+			}
+		}
+	},
+	"rewards": {
+		"function": "ggunz:recipe/big_stick"
+	}
+}

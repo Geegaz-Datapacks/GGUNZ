@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "I  ",
+        "LIS",
+        " WP"
+    ],
+    "key": {
+        "L": {
+            "item": "minecraft:lever"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        },
+        "S": {
+            "item": "minecraft:stone_button"
+        },
+        "W": {
+            "tag": "minecraft:logs"
+        },
+        "P": {
+            "item": "minecraft:piston"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

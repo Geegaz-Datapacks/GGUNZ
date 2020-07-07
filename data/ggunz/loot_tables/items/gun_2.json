@@ -1,0 +1,74 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{
+									"translate": "ggunz.item.name.gun_2",
+									"color": "yellow",
+									"italic": "false"
+								}
+							],
+							"replace": "true"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "ggunz.item.desc.line1",
+									"color": "gray",
+									"italic": "false"
+								},
+								[
+									{
+										"translate": "ggunz.item.desc.line2",
+										"color": "blue",
+										"italic": "false"
+									},
+									{
+										"text": " 1s"
+									}
+								]
+							],
+							"replace": "true"
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:170003, gz_data:{capacity:2, bullets:0, reload_time:1, id:2},HideFlags:32}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.movement_speed",
+									"name": "Speed",
+									"amount": -0.1,
+									"operation": "multiply_base",
+									"slot": [
+										"mainhand"
+									]
+								},
+								{
+									"attribute": "generic.movement_speed",
+									"name": "Speed",
+									"amount": -0.1,
+									"operation": "multiply_base",
+									"slot": [
+										"offhand"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

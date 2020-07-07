@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iR ",
+        "LiS",
+        "GWP"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "G": {
+            "item": "minecraft:glass_bottle"
+        },
+        "S": {
+            "item": "minecraft:stone_button"
+        },
+        "L": {
+            "item": "minecraft:lever"
+        },
+        "P": {
+            "item": "minecraft:piston"
+        },
+        "W": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

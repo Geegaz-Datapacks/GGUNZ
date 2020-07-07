@@ -1,0 +1,26 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:clock",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{"translate": "ggunz.item.name.bullet_0", "color": "white", "italic": false}
+							],
+							"replace": "true"
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:170010,gz_data:{bullet_type:0}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

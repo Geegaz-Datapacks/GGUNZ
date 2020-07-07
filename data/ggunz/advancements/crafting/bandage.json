@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"placeholder": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "ggunz:bandage"
+			}
+		}
+	},
+	"rewards": {
+		"function": "ggunz:recipe/bandage"
+	}
+}

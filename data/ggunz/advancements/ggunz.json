@@ -1,19 +1,18 @@
 {
-	"display": {
-			"title": "GGUNZ",
-			"description": "A firearms datapack",
-			"icon": {
-					"item": "minecraft:carrot_on_a_stick",
-					"nbt": "{CustomModelData:1701010}"
-			},
-			"announce_to_chat": false,
-			"show_toast": false
-	},
-	"parent": "global:geegaz",
-	"criteria": {
-			"trigger": {
-					"trigger": "minecraft:tick"
-			}
-	
-	}
+    "display": {
+        "title": "GGUNZ",
+        "description": "A gun themed datapack",
+        "icon": {
+            "item": "minecraft:barrier",
+            "nbt": "{CustomModelData:170010}"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:geegaz",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
 }

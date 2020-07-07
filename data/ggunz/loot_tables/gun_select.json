@@ -1,0 +1,66 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_0",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 0
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_1",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 1
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_2",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 2
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_3",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 3
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

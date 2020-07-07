@@ -4,20 +4,19 @@
 			"rolls":1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:charcoal",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": {"translate":"ggunz.item.name.jerrycan","color": "white","italic": false}
+							"name": [
+								{"translate": "ggunz.item.name.charcoal", "color": "white", "italic": false}
+							],
+							"replace": "true"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1701003,ggunz:{id:3}}"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ctc:{id:\"jerrycan\",from:\"geegaz:ggunz\",traits:[\"item\",\"fuel\"]}}"
+							"function": "set_nbt",
+							"tag": "{CustomModelData:177000}"
 						}
 					]
 				}

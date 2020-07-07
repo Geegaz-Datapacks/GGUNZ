@@ -4,20 +4,19 @@
 			"rolls":1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "item",
 					"name": "minecraft:clock",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": {"translate":"ggunz.item.name.etherium_rock","color": "aqua","italic": false}
+							"name": [
+								{"translate": "ggunz.item.name.etherium_rock", "color": "aqua", "italic": false}
+							],
+							"replace": "true"
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1701001,ggunz:{id:1},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:0s}]}"
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{ctc:{id:\"etherium_rock\",from:\"geegaz:ggunz\",traits:[\"item\",\"etherium\",\"gem/etherium\"]}}"
+							"function": "set_nbt",
+							"tag": "{CustomModelData:174000,gz_data:{item:\"etherium_rock\",id:1},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:0s}]}"
 						}
 					]
 				}

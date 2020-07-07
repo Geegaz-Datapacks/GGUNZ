@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"placeholder": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "ggunz:etherium_rock"
+			}
+		}
+	},
+	"rewards": {
+		"function": "ggunz:recipe/etherium_rock"
+	}
+}

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i  ",
+        "LiS",
+        " WP"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "S": {
+            "item": "minecraft:stone_button"
+        },
+        "L": {
+            "item": "minecraft:lever"
+        },
+        "P": {
+            "item": "minecraft:piston"
+        },
+        "W": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

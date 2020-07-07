@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"shot_revolver": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"item": {
+					"item":"minecraft:crossbow",
+					"nbt":"{gz_data:{}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ggunz:shoot/trigger"
+	}
+}

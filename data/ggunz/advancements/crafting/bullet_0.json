@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"placeholder": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "ggunz:bullet_0"
+			}
+		}
+	},
+	"rewards": {
+		"function": "ggunz:recipe/bullet_0"
+	}
+}
