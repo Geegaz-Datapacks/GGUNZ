@@ -1,40 +1,57 @@
 {
   "replace": false,
   "values": [
-    "#minecraft:raiders",
 	"minecraft:blaze",
 	"minecraft:bee",
+
 	"minecraft:cat",
 	"minecraft:cave_spider",
 	"minecraft:chicken",
 	"minecraft:cod",
 	"minecraft:cow",
 	"minecraft:creeper",
+
 	"minecraft:dolphin",
 	"minecraft:donkey",
+
 	"minecraft:elder_guardian",
 	"minecraft:end_crystal",
 	"minecraft:ender_dragon",
 	"minecraft:enderman",
 	"minecraft:endermite",
+	"minecraft:evoker",
+
 	"minecraft:fox",
+
 	"minecraft:ghast",
 	"minecraft:giant",
 	"minecraft:guardian",
+
 	"minecraft:hoglin",
 	"minecraft:horse",
+
+	"minecraft:illusioner",
 	"minecraft:iron_golem",
+
 	"minecraft:llama",
+
 	"minecraft:mooshroom",
 	"minecraft:mule",
+
 	"minecraft:ocelot",
+
 	"minecraft:panda",
 	"minecraft:parrot",
 	"minecraft:pig",
 	"minecraft:piglin",
+	"minecraft:piglin_brute",
+	"minecraft:pillager",
 	"minecraft:polar_bear",
 	"minecraft:pufferfish",
+
 	"minecraft:rabbit",
+	"minecraft:ravager",
+
 	"minecraft:salmon",
 	"minecraft:sheep",
 	"minecraft:shulker",
@@ -44,14 +61,19 @@
 	"minecraft:snow_golem",
 	"minecraft:spider",
 	"minecraft:squid",
+
 	"minecraft:trader_llama",
 	"minecraft:tropical_fish",
 	"minecraft:turtle",
+
 	"minecraft:vex",
 	"minecraft:villager",
+	"minecraft:vindicator",
+
 	"minecraft:wandering_trader",
+	"minecraft:witch",
 	"minecraft:wolf",
-	
+
 	"minecraft:player"
 	
   ]

@@ -9,4 +9,4 @@ scoreboard objectives remove gz_reload_max
 scoreboard objectives remove gz_id
 
 tellraw @a {"translate":"ggunz.text.uninstall","color":"red","bold":true}
-datapack disable "file/GGUNZ Data"
+datapack disable "file/GGUNZ"
