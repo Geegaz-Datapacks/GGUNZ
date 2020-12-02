@@ -12,14 +12,14 @@
 							"name": [
 								{"translate": "ggunz.item.name.bandage", "color": "gold", "italic": false}
 							],
-							"replace": "true"
+							"replace": true
 						},
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
 								{"translate":"ggunz.item.desc.bandage","color":"gray","italic":false}
 							],
-							"replace": "true"
+							"replace": true
 						},
 						{
 							"function": "set_nbt",

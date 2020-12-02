@@ -25,17 +25,17 @@
 								{
 									"function": "minecraft:set_name",
 									"name": [
-										{"translate":"ggunz.item.name.gun_1","color":"yellow", "italic":"false"}
+										{"translate":"ggunz.item.name.gun_1","color":"yellow", "italic":false}
 									],
-									"replace": "true"
+									"replace": true
 								},
 								{
 									"function": "minecraft:set_lore",
 									"lore": [
-										[{"translate":"ggunz.item.desc.bullets","color":"white", "italic":"false"},{"score":{"name":"@s","objective":"gz_bullets"}},{"text":"/"},{"score":{"name":"@s","objective":"gz_capacity"}}]
+										[{"translate":"ggunz.item.desc.bullets","color":"white", "italic":false},{"score":{"name":"@s","objective":"gz_bullets"}},{"text":"/"},{"score":{"name":"@s","objective":"gz_capacity"}}]
 									],
 									"entity": "this",
-									"replace": "true"
+									"replace": true
 								},
 								{
 									"function": "set_nbt",

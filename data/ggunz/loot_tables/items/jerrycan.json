@@ -12,7 +12,7 @@
 							"name": [
 								{"translate": "ggunz.item.name.charcoal", "color": "white", "italic": false}
 							],
-							"replace": "true"
+							"replace": true
 						},
 						{
 							"function": "set_nbt",

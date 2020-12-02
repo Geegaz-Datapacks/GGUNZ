@@ -16,7 +16,7 @@
 									"italic": false
 								}
 							],
-							"replace": "true"
+							"replace": true
 						},
 						{
 							"function": "set_nbt",

@@ -13,10 +13,10 @@
 								{
 									"translate": "ggunz.item.name.gun_3",
 									"color": "yellow",
-									"italic": "false"
+									"italic": false
 								}
 							],
-							"replace": "true"
+							"replace": true
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -24,20 +24,20 @@
 								{
 									"translate": "ggunz.item.desc.line1",
 									"color": "gray",
-									"italic": "false"
+									"italic": false
 								},
 								[
 									{
 										"translate": "ggunz.item.desc.line2",
 										"color": "blue",
-										"italic": "false"
+										"italic": false
 									},
 									{
 										"text": " 2.5s"
 									}
 								]
 							],
-							"replace": "true"
+							"replace": true
 						},
 						{
 							"function": "set_nbt",

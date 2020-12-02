@@ -12,7 +12,7 @@
 							"name": [
 								{"translate": "ggunz.item.name.etherium_rock", "color": "aqua", "italic": false}
 							],
-							"replace": "true"
+							"replace": true
 						},
 						{
 							"function": "set_nbt",
