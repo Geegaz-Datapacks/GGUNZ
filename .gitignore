@@ -1,0 +1,7 @@
+# VSCode-specific ignores
+.vscode/
+*.code-workspace
+
+# Folders
+builds/
+img/

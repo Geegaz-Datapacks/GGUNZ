@@ -1,0 +1,30 @@
+{
+  "item.minecraft.knowledge_book": "Cliquez pour craft",
+  
+  "ggunz.item.name.gun_0": "Revolver",
+  "ggunz.item.name.gun_1": "Pistolet à Etherium",
+  "ggunz.item.name.gun_2": "Fusil de Chasse",
+  "ggunz.item.name.gun_3": "Fusil à Etherium",
+  "ggunz.item.name.bullet_0": "Balle",
+  "ggunz.item.name.bullet_1": "Etherium Liquide",
+  "ggunz.item.name.bullet_2": "Cartouche",
+  "ggunz.item.name.big_stick": "Grand Bâton",
+  "ggunz.item.name.spear": "Lance",
+  "ggunz.item.name.survival_knife": "Couteau de Survie",
+  "ggunz.item.name.gold_coin": "Pièce d'Or",
+  "ggunz.item.name.silver_coin": "Pièce d'Argent",
+  "ggunz.item.name.copper_coin": "Pièce de Bronze",
+  "ggunz.item.name.etherium_rock": "Etherium",
+  "ggunz.item.name.jerrycan": "Jerrycan",
+  "ggunz.item.name.scroll": "Parchemin",
+  "ggunz.item.name.bandage": "Bandage",
+  
+  "ggunz.item.desc.bullets": "Munitions: ",
+  "ggunz.item.desc.line1": "Shift-Clic gauche pour recharger",
+  "ggunz.item.desc.line2": "Temps de recharge: ",
+  "ggunz.item.desc.bandage": "Clic droit pour se soigner",
+  
+  "ggunz.text.reloading": "Recharge en cours...",
+  "ggunz.text.install": "GGUNZ installé avec succès",
+  "ggunz.text.uninstall": "GGUNZ désinstallé avec succès"
+}

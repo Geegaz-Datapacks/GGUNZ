@@ -1,0 +1,30 @@
+{
+  "item.minecraft.knowledge_book": "Click to craft",
+  
+  "ggunz.item.name.gun_0": "Revolver",
+  "ggunz.item.name.gun_1": "Etherium Gun",
+  "ggunz.item.name.gun_2": "Hunting Rifle",
+  "ggunz.item.name.gun_3": "Etherium Rifle",
+  "ggunz.item.name.bullet_0": "Bullet",
+  "ggunz.item.name.bullet_1": "Liquid Etherium",
+  "ggunz.item.name.bullet_2": "Cartridge",
+  "ggunz.item.name.big_stick": "Big Stick",
+  "ggunz.item.name.spear": "Spear",
+  "ggunz.item.name.survival_knife": "Survival Knife",
+  "ggunz.item.name.gold_coin": "Gold Coin",
+  "ggunz.item.name.silver_coin": "Silver Coin",
+  "ggunz.item.name.copper_coin": "Copper Coin",
+  "ggunz.item.name.etherium_rock": "Etherium",
+  "ggunz.item.name.jerrycan": "Jerrycan",
+  "ggunz.item.name.scroll": "Scroll",
+  "ggunz.item.name.bandage": "Bandage",
+  
+  "ggunz.item.desc.bullets": "Bullets: ",
+  "ggunz.item.desc.line1": "Shift-click to reload",
+  "ggunz.item.desc.line2": "Reload time: ",
+  "ggunz.item.desc.bandage": "Right-click to heal",
+  
+  "ggunz.text.reloading": "Reloading...",
+  "ggunz.text.install": "GGUNZ sucessfully installed",
+  "ggunz.text.uninstall": "GGUNZ sucessfully uninstalled"
+}

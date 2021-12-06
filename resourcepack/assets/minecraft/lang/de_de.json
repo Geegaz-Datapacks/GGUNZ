@@ -1,0 +1,30 @@
+{
+  "item.minecraft.knowledge_book": "Klicke zum craften",
+  
+  "ggunz.item.name.gun_0": "Revolver",
+  "ggunz.item.name.gun_1": "Ätherpistole",
+  "ggunz.item.name.gun_2": "Jagdgewehr",
+  "ggunz.item.name.gun_3": "Äthergewehr",
+  "ggunz.item.name.bullet_0": "Kugel",
+  "ggunz.item.name.bullet_1": "Flüssiges Äther",
+  "ggunz.item.name.bullet_2": "Patrone",
+  "ggunz.item.name.big_stick": "Großer Stock",
+  "ggunz.item.name.spear": "Speer",
+  "ggunz.item.name.survival_knife": "Überlebensmesser",
+  "ggunz.item.name.gold_coin": "Goldmünze",
+  "ggunz.item.name.silver_coin": "Silbermünze",
+  "ggunz.item.name.copper_coin": "Kupfermünze",
+  "ggunz.item.name.etherium_rock": "Äther",
+  "ggunz.item.name.jerrycan": "Kanister",
+  "ggunz.item.name.scroll": "Schriftrolle",
+  "ggunz.item.name.bandage": "Verband",
+  
+  "ggunz.item.desc.bullets": "Munition: ",
+  "ggunz.item.desc.line1": "Sneak-klick zum nachladen",
+  "ggunz.item.desc.line2": "Nachladezeit: ",
+  "ggunz.item.desc.bandage": "Rechtsklick zum heilen",
+  
+  "ggunz.text.reloading": "Wird Nachgeladen...",
+  "ggunz.text.install": "GGUNZ installiert",
+  "ggunz.text.uninstall": "GGUNZ deinstalliert"
+}
