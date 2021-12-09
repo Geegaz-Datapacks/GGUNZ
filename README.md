@@ -6,7 +6,5 @@ F3 + T to reload the resourcepack
 `/reload` to reload the datapack
 
 ---
-- **GGUNZ - Data** is licensed under an MIT license
-- **GGUNZ - Resources** is licensed under a CC BY 4.0 license
-
-*See their respective folders for details on each license*
+- **GGUNZ data pack** is licensed under a [GNU GPLv3 license](/data_pack_license.md "See license")
+- **GGUNZ resource pack** is licensed under a [CC BY 4.0 license](/resource_pack_license.md "See license")
