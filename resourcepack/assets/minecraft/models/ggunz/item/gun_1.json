@@ -1,6 +1,0 @@
-{
-    "parent": "ggunz/item/handheld",
-    "textures": {
-        "layer0": "ggunz/item/gun_1"
-    }
-}

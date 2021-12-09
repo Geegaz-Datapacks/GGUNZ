@@ -4,4 +4,6 @@
 
 # Folders
 builds/
-img/
+
+# Beet
+.beet_cache

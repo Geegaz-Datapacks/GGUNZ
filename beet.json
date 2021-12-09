@@ -1,0 +1,37 @@
+{
+    "author": "Geegaz",
+    "description": "A datapack about firearms",
+    "name": "GGUNZ",
+    "version": "2.0.0",
+    
+    "data_pack": {
+        "load": ["src"],
+        "pack_format": 8
+    },
+    "resource_pack": {
+        "load": ["src"],
+        "pack_format": 8
+    },
+    "pipeline": [
+        "beet.contrib.yellow_shulker_box",
+        "beet.contrib.installation_advancement",
+        "beet.contrib.copy_files"
+    ],
+    "meta": {
+        "copy_files": {
+            "data_pack": {
+                "LICENSE.md": "data_pack_license.md"
+            },
+            "resource_pack": {
+                "LICENSE.md": "resource_pack_license.md"
+            }
+        },
+        "installation_advancement": {
+            "project_advancement_path": "ggunz:installed",
+            "icon": {
+                "item": "minecraft:carrot_on_a_stick", 
+                "nbt": "{CustomModelData: 170001}"
+            }
+        }
+    }
+}
