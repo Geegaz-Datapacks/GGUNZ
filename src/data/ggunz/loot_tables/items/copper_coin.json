@@ -1,7 +1,7 @@
 {
 	"pools": [
 		{
-			"rolls":1,
+			"rolls": 1,
 			"entries": [
 				{
 					"type": "item",
@@ -9,9 +9,11 @@
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": [
-								{"translate": "ggunz.item.name.copper_coin", "color": "white", "italic": false}
-							],
+							"name": {
+								"translate": "ggunz.item.name.copper_coin",
+								"color": "white",
+								"italic": false
+							},
 							"replace": true
 						},
 						{

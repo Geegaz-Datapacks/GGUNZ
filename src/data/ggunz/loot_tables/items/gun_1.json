@@ -1,7 +1,7 @@
 {
 	"pools": [
 		{
-			"rolls":1,
+			"rolls": 1,
 			"entries": [
 				{
 					"type": "item",
@@ -9,16 +9,31 @@
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": [
-								{"translate":"ggunz.item.name.gun_1","color":"yellow", "italic":false}
-							],
+							"name": {
+								"translate": "ggunz.item.name.gun_1",
+								"color": "yellow",
+								"italic": false
+							},
 							"replace": true
 						},
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
-								{"translate":"ggunz.item.desc.line1","color":"gray", "italic":false},
-								[{"translate":"ggunz.item.desc.line2","color":"blue", "italic":false},{"text":" 1.5s"}]
+								{
+									"translate": "ggunz.item.desc.line1",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									{
+										"translate": "ggunz.item.desc.line2",
+										"color": "blue",
+										"italic": false
+									},
+									{
+										"text": " 1.5s"
+									}
+								]
 							],
 							"replace": true
 						},

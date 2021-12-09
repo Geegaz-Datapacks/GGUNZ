@@ -9,13 +9,11 @@
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": [
-								{
-									"translate": "ggunz.item.name.survival_knife",
-									"color": "white",
-									"italic": false
-								}
-							],
+							"name": {
+								"translate": "ggunz.item.name.survival_knife",
+								"color": "white",
+								"italic": false
+							},
 							"replace": true
 						},
 						{

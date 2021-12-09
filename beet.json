@@ -15,7 +15,8 @@
     "pipeline": [
         "beet.contrib.yellow_shulker_box",
         "beet.contrib.installation_advancement",
-        "beet.contrib.copy_files"
+        "beet.contrib.copy_files",
+        "pipelines.nbt_recipes"
     ],
     "meta": {
         "copy_files": {

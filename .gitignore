@@ -2,8 +2,11 @@
 .vscode/
 *.code-workspace
 
-# Folders
-builds/
-
 # Beet
 .beet_cache
+
+# Python
+*/__pycache__/
+
+# Folders
+builds/
