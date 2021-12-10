@@ -1,0 +1,62 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "translate": "ggunz.item.desc.bullets",
+                "color": "white",
+                "italic": false,
+                "extra": [
+                    {
+                        "score": {
+                            "name": "$ggunz.bullets",
+                            "objective": "ggunz.var"
+                        }
+                    },
+                    {
+                        "text": "/"
+                    },
+                    {
+                        "score": {
+                            "name": "$ggunz.capacity",
+                            "objective": "ggunz.var"
+                        }
+                    }
+                ]
+            },
+            {
+                "translate": "ggunz.item.desc.reload"
+            },
+            {
+                "translate": "ggunz.item.desc.reload_time",
+                "extra": [
+                    {
+                        "score": {
+                            "name": "$ggunz.reload_time",
+                            "objective": "ggunz.var"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "geegaz:ggunz"
+        },
+        "ops": [
+            {
+                "source": "temp.ggunz",
+                "target": "ggunz",
+                "op": "replace"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{Charged:1b, HideFlags: 32}"
+    }
+]

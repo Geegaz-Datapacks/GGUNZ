@@ -1,0 +1,24 @@
+GGUNZ translations,en_us,fr_fr,de_de
+item.name.revolver,Revolver,Revolver,Revolver
+item.name.hunting_rifle,Hunting Rifle,Fusil de chasse,Jagdgewehr
+item.name.etherium_gun,Etherium Gun,Pistolet à etherium,Ätherpistole
+item.name.etherium_rifle,Etherium Rifle,Fusil à etherium,Äthergewehr
+item.name.bullet,Bullet,Balle,Kugel
+item.name.cartridge,Cartridge,Cartouche,Patrone
+item.name.liquid_etherium,Liquid Etherium,Etherium liquide,Flüssiges Äther
+item.name.big_stick,Big Stick,Grand Bâton,Großer Stock
+item.name.spear,Spear,Lance,Speer
+item.name.survival_knife,Survival Knife,Couteau de survie,Überlebensmesser
+item.name.gold_coin,Gold Coin,Pièce d’or,Goldmünze
+item.name.silver_coin,Silver Coin,Pièce d’argent,Silbermünze
+item.name.copper_coin,Copper Coin,Pièce de cuivre,Kupfermünze
+item.name.etherium,Etherium,Etherium,Äther
+item.name.jerrycan,Jerrycan,Jerrycan,Kanister
+item.name.scroll,Scroll,Parchemin,Schriftrolle
+item.name.bandage,Bandage,Bandage,Verband
+,,,
+item.desc.bullets,Ammo: ,Munitions: ,Munition: 
+item.desc.reload_instructions,Shift+Click to reload,Shift+Clic pour recharger,Sneak+klick zum nachladen
+item.desc.reload_time,Reloading time: ,Temps de recharge: ,Nachladezeit: 
+,,,
+text.reloading,Reloading...,Recharge en cours...,Wird Nachgeladen...

@@ -16,6 +16,7 @@
         "beet.contrib.yellow_shulker_box",
         "beet.contrib.installation_advancement",
         "beet.contrib.copy_files",
+        "beet.contrib.babelbox",
         "pipelines.nbt_recipes"
     ],
     "meta": {
@@ -33,6 +34,10 @@
                 "item": "minecraft:carrot_on_a_stick", 
                 "nbt": "{CustomModelData: 170001}"
             }
+        },
+        "babelbox": {
+            "load": ["ggunz.csv"],
+            "namespace": "ggunz"
         }
     }
 }

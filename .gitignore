@@ -10,3 +10,6 @@
 
 # Folders
 builds/
+
+# Libre Office
+.~lock.*
