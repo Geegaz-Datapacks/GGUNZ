@@ -1,5 +1,5 @@
 """
-Plugin that creates the files for nbt crafting with the knowledge book workaround,
+Pipeline that creates the files for nbt crafting with the knowledge book workaround,
 by linking loot tables and recipes
 
 recipes are checked from their root folder, so {namespace}:{path}
