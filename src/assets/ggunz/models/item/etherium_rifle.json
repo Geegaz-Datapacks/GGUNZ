@@ -1,6 +1,6 @@
 {
     "parent": "ggunz:item/handheld_big",
     "textures": {
-        "layer0": "ggunz:item/gun_3"
+        "layer0": "ggunz:item/etherium_rifle"
     }
 }

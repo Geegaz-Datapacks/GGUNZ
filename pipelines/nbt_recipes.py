@@ -31,15 +31,13 @@ def beet_default(ctx: Context):
                         }
                     },
                     "rewards": {
-                        "function": function_path,
-                        "loot": [
-                            loot_table_path
-                        ]
+                        "function": function_path
                     }
                 }
             )
             ctx.data[function_path] = Function([
                 "clear @s knowledge_book 1",
                 f"advancement revoke @s only {advancement_path}",
-                f"recipe take @s {recipe_path}"
+                f"recipe take @s {recipe_path}",
+                f"loot give @s loot {loot_table_path}"
             ])

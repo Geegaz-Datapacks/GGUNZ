@@ -1,6 +1,6 @@
 {
     "parent": "ggunz:item/handheld_big",
     "textures": {
-        "layer0": "ggunz:item/gun_2"
+        "layer0": "ggunz:item/hunting_rifle"
     }
 }

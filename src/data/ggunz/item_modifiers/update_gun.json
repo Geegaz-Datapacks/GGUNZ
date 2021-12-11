@@ -4,42 +4,44 @@
         "entity": "this",
         "lore": [
             {
-                "translate": "ggunz.item.desc.bullets",
+                "translate": "ggunz.item.desc.ammo",
                 "color": "white",
                 "italic": false,
                 "extra": [
                     {
-                        "score": {
-                            "name": "$ggunz.bullets",
-                            "objective": "ggunz.var"
-                        }
+                        "nbt": "temp.GunData.Ammo",
+                        "storage": "geegaz:ggunz",
+                        "interpret": true
                     },
                     {
                         "text": "/"
                     },
                     {
-                        "score": {
-                            "name": "$ggunz.capacity",
-                            "objective": "ggunz.var"
-                        }
+                        "nbt": "temp.GunData.Capacity",
+                        "storage": "geegaz:ggunz",
+                        "interpret": true
                     }
                 ]
             },
             {
-                "translate": "ggunz.item.desc.reload"
+                "translate": "ggunz.item.desc.reload",
+                "color": "gray",
+                "italic": false
             },
             {
                 "translate": "ggunz.item.desc.reload_time",
+                "color": "blue",
+                "italic": false,
                 "extra": [
                     {
-                        "score": {
-                            "name": "$ggunz.reload_time",
-                            "objective": "ggunz.var"
-                        }
+                        "nbt": "temp.GunData.ReloadTime",
+                        "storage": "geegaz:ggunz",
+                        "interpret": true
                     }
                 ]
             }
-        ]
+        ],
+        "replace": true
     },
     {
         "function": "minecraft:copy_nbt",
@@ -49,8 +51,8 @@
         },
         "ops": [
             {
-                "source": "temp.ggunz",
-                "target": "ggunz",
+                "source": "temp.GunData",
+                "target": "ggunz.GunData",
                 "op": "replace"
             }
         ]

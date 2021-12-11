@@ -17,9 +17,16 @@
         "beet.contrib.installation_advancement",
         "beet.contrib.copy_files",
         "beet.contrib.babelbox",
-        "pipelines.nbt_recipes"
+        "pipelines.items",
+        "pipelines.nbt_recipes",
+        "pipelines.ggunz.guns"
     ],
     "meta": {
+        "babelbox": {
+            "load": ["ggunz.csv"],
+            "namespace": "ggunz",
+            "filename_prefix": true
+        },
         "copy_files": {
             "data_pack": {
                 "LICENSE.md": "data_pack_license.md"
@@ -35,9 +42,12 @@
                 "nbt": "{CustomModelData: 170001}"
             }
         },
-        "babelbox": {
-            "load": ["ggunz.csv"],
-            "namespace": "ggunz"
+        "items": {
+            "load": ["items.json"],
+            "cmd_id": 1700000
+        },
+        "guns": {
+            "load": ["guns.json"]
         }
     }
 }

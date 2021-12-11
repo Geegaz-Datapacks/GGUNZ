@@ -1,0 +1,5 @@
+{
+    "overrides": [
+        { "predicate": { "custom_model_data":1700001}, "model": "ggunz:item/bandage" }
+	]
+}

@@ -68,15 +68,6 @@
         { "predicate": { "time": 0.9453125 }, "model": "item/clock_61" },
         { "predicate": { "time": 0.9609375 }, "model": "item/clock_62" },
         { "predicate": { "time": 0.9765625 }, "model": "item/clock_63" },
-        { "predicate": { "time": 0.9921875 }, "model": "item/clock" },
-		
-		{ "predicate": { "custom_model_data":170010}, "model": "ggunz:item/bullet_0" },
-		{ "predicate": { "custom_model_data":170020}, "model": "ggunz:item/bullet_1" },
-		{ "predicate": { "custom_model_data":170030}, "model": "ggunz:item/bullet_2" },
-		{ "predicate": { "custom_model_data":171000}, "model": "ggunz:item/gold_coin" },
-		{ "predicate": { "custom_model_data":172000}, "model": "ggunz:item/silver_coin" },
-		{ "predicate": { "custom_model_data":173000}, "model": "ggunz:item/copper_coin" },
-		{ "predicate": { "custom_model_data":174000}, "model": "ggunz:item/etherium_rock" },
-		{ "predicate": { "custom_model_data":175000}, "model": "ggunz:item/scroll" }
+        { "predicate": { "time": 0.9921875 }, "model": "item/clock" }
     ]
 }

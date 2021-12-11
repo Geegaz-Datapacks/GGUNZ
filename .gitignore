@@ -6,7 +6,7 @@
 .beet_cache
 
 # Python
-*/__pycache__/
+**/__pycache__/
 
 # Folders
 builds/

@@ -1,9 +1,10 @@
 
-scoreboard objectives add gz_sneak minecraft.custom:minecraft.sneak_time
-scoreboard objectives add gz_click minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add gz_bullets dummy
-scoreboard objectives add gz_capacity dummy
-scoreboard objectives add gz_damage dummy
-scoreboard objectives add gz_reload dummy
-scoreboard objectives add gz_reload_max dummy
-scoreboard objectives add gz_id dummy
+scoreboard objectives add ggunz.sneak minecraft.custom:minecraft.sneak_time
+scoreboard objectives add ggunz.click minecraft.used:minecraft.carrot_on_a_stick
+
+scoreboard objectives add ggunz.id dummy
+
+scoreboard objectives add ggunz.var dummy
+scoreboard objectives add ggunz.CONST dummy
+
+scoreboard players set $ggunz.ticks ggunz.CONST 20

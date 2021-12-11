@@ -1,0 +1,105 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:crossbow",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": "$ggunz.ammo"
+                                        },
+                                        "score": "ggunz.var"
+                                    },
+                                    "range": {
+                                        "min": 1
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:carrot_on_a_stick"
+                        }
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "translate": "ggunz.item.desc.ammo",
+                            "color": "white",
+                            "italic": false,
+                            "extra": [
+                                {
+                                    "nbt": "temp.GunData.Ammo",
+                                    "storage": "geegaz:ggunz",
+                                    "interpret": true
+                                },
+                                {
+                                    "text": "/"
+                                },
+                                {
+                                    "nbt": "temp.GunData.Capacity",
+                                    "storage": "geegaz:ggunz",
+                                    "interpret": true
+                                }
+                            ]
+                        },
+                        {
+                            "translate": "ggunz.item.desc.reload",
+                            "color": "gray",
+                            "italic": false
+                        },
+                        {
+                            "translate": "ggunz.item.desc.reload_time",
+                            "color": "blue",
+                            "italic": false,
+                            "extra": [
+                                {
+                                    "nbt": "temp.GunData.ReloadTime",
+                                    "storage": "geegaz:ggunz",
+                                    "interpret": true
+                                },
+                                {
+                                    "text": "s"
+                                }
+                            ]
+                        }
+                    ],
+                    "replace": true
+                },
+                {
+                    "function": "minecraft:copy_nbt",
+                    "source": {
+                        "type": "minecraft:storage",
+                        "source": "geegaz:ggunz"
+                    },
+                    "ops": [
+                        {
+                            "source": "temp.GunData",
+                            "target": "ggunz.GunData",
+                            "op": "replace"
+                        }
+                    ]
+                },
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{Charged:1b, HideFlags: 32}"
+                }
+            ]
+        }
+    ]
+}

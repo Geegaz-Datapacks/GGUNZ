@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "item/stone_sword"
+        "layer0": "ggunz:item/etherium_pistol"
     }
 }
