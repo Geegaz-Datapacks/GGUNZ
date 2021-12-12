@@ -17,8 +17,7 @@
         "beet.contrib.installation_advancement",
         "beet.contrib.copy_files",
         "beet.contrib.babelbox",
-        "pipelines.items",
-        "pipelines.nbt_recipes",
+        "pipelines.generated_items",
         "pipelines.ggunz.guns"
     ],
     "meta": {
@@ -42,12 +41,12 @@
                 "nbt": "{CustomModelData: 170001}"
             }
         },
-        "items": {
-            "load": ["items.json"],
-            "cmd_id": 1700000
+        "generated_items": {
+            "load": ["items"],
+            "custom_model_data": 1700000
         },
         "guns": {
-            "load": ["guns.json"]
+            "load": ["items/guns.json"]
         }
     }
 }

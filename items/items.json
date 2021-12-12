@@ -1,0 +1,49 @@
+{
+    "bullet": {},
+    "cartridge": {},
+    "etherium": {
+        "rarity": 2,
+        "data": {
+            "functions": [
+                {
+                    "function": "set_nbt",
+                    "tag": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:0s}], HideFlags: 1}"
+                }
+            ]
+        }
+    },
+    "liquid_etherium": {
+        "rarity": 2,
+        "data": {
+            "functions": [
+                {
+                    "function": "set_nbt",
+                    "tag": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:0s}], HideFlags: 1}"
+                }
+            ]
+        }
+    },
+    "bandage": {
+        "data": {
+            "type": "item",
+            "name": "minecraft:carrot_on_a_stick"
+        }
+    },
+    "gold_coin": {
+        "rarity": 1
+    },
+    "siver_coin": {},
+    "copper_coin": {},
+    "jerrycan": {
+        "data": {
+            "type": "item",
+            "name": "minecraft:charcoal"
+        }
+    },
+    "scroll": {
+        "data": {
+            "type": "item",
+            "name": "minecraft:paper"
+        }
+    }
+}

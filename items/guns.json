@@ -1,0 +1,74 @@
+{
+    "etherium_pistol": {
+        "rarity": 2,
+        "data": {
+            "type": "loot_table",
+            "name": "ggunz:gun"
+        },
+        "asset": {
+            "parent": "minecraft:item/handheld",
+            "overrides": [
+                "minecraft:carrot_on_a_stick",
+                "minecraft:crossbow"
+            ]
+        },
+        "gun_data": {
+            "capacity": 4,
+            "reload_time": 3
+        }
+    },
+    "etherium_rifle": {
+        "rarity": 2,
+        "data": {
+            "type": "loot_table",
+            "name": "ggunz:gun"
+        },
+        "asset": {
+            "parent": "ggunz:item/handheld_big",
+            "overrides": [
+                "minecraft:carrot_on_a_stick",
+                "minecraft:crossbow"
+            ]
+        },
+        "gun_data": {
+            "capacity": 8,
+            "reload_time": 4
+        }
+    },
+    "hunting_rifle": {
+        "rarity": 1,
+        "data": {
+            "type": "loot_table",
+            "name": "ggunz:gun"
+        },
+        "asset": {
+            "parent": "ggunz:item/handheld_big",
+            "overrides": [
+                "minecraft:carrot_on_a_stick",
+                "minecraft:crossbow"
+            ]
+        },
+        "gun_data": {
+            "capacity": 2,
+            "reload_time": 1
+        }
+    },
+    "revolver": {
+        "rarity": 1,
+        "data": {
+            "type": "loot_table",
+            "name": "ggunz:gun"
+        },
+        "asset": {
+            "parent": "minecraft:item/handheld",
+            "overrides": [
+                "minecraft:carrot_on_a_stick",
+                "minecraft:crossbow"
+            ]
+        },
+        "gun_data": {
+            "capacity": 6,
+            "reload_time": 3
+        }
+    }
+}
