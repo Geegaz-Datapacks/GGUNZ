@@ -15,6 +15,7 @@
     "pipeline": [
         "beet.contrib.yellow_shulker_box",
         "beet.contrib.installation_advancement",
+        "beet.contrib.copy_files",
         "beet.contrib.babelbox",
         "generate_items",
         "ggunz"
@@ -30,6 +31,14 @@
             "icon": {
                 "item": "minecraft:carrot_on_a_stick", 
                 "nbt": "{CustomModelData: 170001}"
+            }
+        },
+        "copy_files": {
+            "data_pack": {
+                "LICENSE.md": "LICENSE_data.md"
+            },
+            "resource_pack": {
+                "LICENSE.md": "LICENSE_assets.md"
             }
         },
         "generated_items": {
