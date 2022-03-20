@@ -64,8 +64,8 @@ def beet_default(ctx: Context):
 def generated_items(ctx: Context, opts: GeneratedItemsOptions):
     # get item files
     item_files: List[str] = []
-    for folder in opts.load:
-        item_files.extend(Path(folder).glob("**/*.json"))
+    for path in opts.load:
+        item_files.extend(Path().glob(path))
 
     namespace = opts.custom_namespace or ctx.project_id
     all_recipes: List[str] = [

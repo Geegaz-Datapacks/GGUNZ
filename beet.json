@@ -15,7 +15,7 @@
     "pipeline": [
         "beet.contrib.yellow_shulker_box",
         "beet.contrib.installation_advancement",
-        "beet.contrib.copy_files",
+        "beet.contrib.extra_files",
         "beet.contrib.babelbox",
         "generate_items",
         "ggunz"
@@ -33,16 +33,16 @@
                 "nbt": "{CustomModelData: 170001}"
             }
         },
-        "copy_files": {
-            "data_pack": {
-                "LICENSE.md": "LICENSE_data.md"
-            },
-            "resource_pack": {
-                "LICENSE.md": "LICENSE_assets.md"
-            }
+        "extra_files": {
+            "data_pack": [
+                "LICENSE.md"
+            ],
+            "resource_pack": [
+                "LICENSE.md"
+            ]
         },
         "generated_items": {
-            "load": ["items"],
+            "load": ["items/*.json"],
             "custom_model_data": 1700000
         },
         "guns": {
