@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "i  ",
+    "biL",
+    " #P"
+  ],
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "L": "minecraft:lever",
+    "b": "#minecraft:stone_buttons",
+    "#": "#minecraft:planks",
+    "P": "minecraft:piston"
+  },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "!minecraft:food": {},
+      "minecraft:item_model": "ggunz:guns/revolver",
+      "minecraft:item_name": "{\"translate\":\"ggunz.item.guns.revolver\",\"fallback\":\"Revolver\"}",
+      "minecraft:custom_data": {
+        "ggunz": {
+          "type": "gun",
+          "id": "revolver",
+          "loaded": false
+        }
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 2147483647,
+        "animation": "crossbow",
+        "has_consume_particles": false
+      }
+    }
+  }
+}

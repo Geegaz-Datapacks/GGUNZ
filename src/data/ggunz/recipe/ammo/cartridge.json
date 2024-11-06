@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget",
+    "minecraft:iron_nugget",
+    "minecraft:gunpowder",
+    "minecraft:copper_ingot"
+  ],
+  "result": {
+    "id": "minecraft:clock",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "ggunz:ammo/cartridge",
+      "minecraft:item_name": "{\"translate\":\"ggunz.item.ammo.cartridge\",\"fallback\":\"Cartridge\"}",
+      "minecraft:custom_data": "{ggunz:{type:\"ammo\", id:\"cartridge\"}}"
+    }
+  }
+}

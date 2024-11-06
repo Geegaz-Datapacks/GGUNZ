@@ -1,0 +1,2 @@
+execute if entity @s[tag=ggunz.input.sneak] if items entity @s weapon.mainhand minecraft:crossbow run item modify entity @s weapon.mainhand ggunz:set_item_poisoned_potato
+execute unless entity @s[tag=ggunz.input.sneak] if items entity @s weapon.mainhand minecraft:poisonous_potato run item modify entity @s weapon.mainhand ggunz:set_item_crossbow

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:glow_ink_sac",
+    "minecraft:glow_ink_sac",
+    "minecraft:glow_ink_sac",
+    "minecraft:glow_ink_sac",
+    "minecraft:blue_ice",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "minecraft:clock",
+    "components": {
+      "minecraft:item_model": "ggunz:ammo/etherium_canister",
+      "minecraft:item_name": "{\"translate\":\"ggunz.item.ammo.etherium_canister\",\"fallback\":\"Etherium Canister\"}",
+      "minecraft:custom_data": "{ggunz:{type:\"ammo\", id:\"bullet\"}}"
+    }
+  }
+}

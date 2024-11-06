@@ -1,1 +1,0 @@
-execute at @s run function ggunz:projectiles/init_move

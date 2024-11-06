@@ -1,0 +1,21 @@
+[
+  {
+    "function": "minecraft:sequence",
+    "functions": [
+      {
+        "function": "minecraft:set_item",
+        "item": "minecraft:crossbow"
+      },
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:charged_projectiles": [
+            {
+              "id": "minecraft:clock"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

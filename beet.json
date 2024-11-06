@@ -6,32 +6,30 @@
     
     "data_pack": {
         "load": ["src"],
-        "pack_format": 8
+        "pack_format": 57
     },
     "resource_pack": {
         "load": ["src"],
-        "pack_format": 8
+        "pack_format": 42
     },
     "pipeline": [
-        "beet.contrib.yellow_shulker_box",
         "beet.contrib.installation_advancement",
-        "beet.contrib.extra_files",
         "beet.contrib.babelbox",
-        "generate_items",
-        "ggunz"
+        "beet.contrib.extra_files"
     ],
     "meta": {
-        "babelbox": {
-            "load": ["ggunz.csv"],
-            "namespace": "ggunz",
-            "filename_prefix": true
-        },
         "installation_advancement": {
             "project_advancement_path": "ggunz:installed",
             "icon": {
-                "item": "minecraft:carrot_on_a_stick", 
-                "nbt": "{CustomModelData: 170001}"
+                "id": "minecraft:poisonous_potato",
+                "components": {
+                    "item_model": "ggunz:guns/revolver",
+                    "item_name": "{translate:\"ggunz.item.guns.revolver\",fallback:\"Revolver\"}"
+                }
             }
+        },
+        "babelbox": {
+            "load": ["ggunz.csv"]
         },
         "extra_files": {
             "data_pack": [
@@ -40,13 +38,6 @@
             "resource_pack": [
                 "LICENSE.md"
             ]
-        },
-        "generated_items": {
-            "load": ["items/*.json"],
-            "custom_model_data": 1700000
-        },
-        "guns": {
-            "load": ["items/guns.json"]
         }
     }
 }
